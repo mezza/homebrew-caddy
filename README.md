@@ -8,16 +8,16 @@ This is just a simple Tap that clones the [caddy.rb](https://github.com/Homebrew
 
 ```
 brew uninstall caddy
-brew tap mezza9/caddy
-brew install mezza9/caddy/caddy
-brew services start mezza9/caddy/caddy
+brew tap mezza/caddy
+brew install mezza/caddy/caddy
+brew services start mezza/caddy/caddy
 ```
 
 ## To update:
 
 ```
 brew update
-brew upgrade mezza9/caddy/caddy
+brew upgrade mezza/caddy/caddy
 ```
 
 ## Upgrades:

@@ -51,7 +51,7 @@ class Caddy < Formula
     log_path var/"log/caddy.log"
     environment_variables(
       XDG_DATA_HOME: "#{HOMEBREW_PREFIX}/var/lib",
-      HOME:          "#{HOMEBREW_PREFIX}/var/lib",
+      HOME:          "#{HOMEBREW_PREFIX}/var/lib"
     )
   end
 
